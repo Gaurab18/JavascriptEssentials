@@ -23,3 +23,26 @@ if (isLoggedIn) {
 } else {
     userMessage = "Please log in to access the system.";
 }
+
+//Switch case
+let userType = "subscriber";
+let userCategory;
+
+switch(userType)
+{
+    case "admin":
+        userCategory = "Administrator";
+        console.log("User Category:", userCategory);
+        break;
+    case "manager":
+        userCategory = "Manager";
+        console.log("User Category:", userCategory);
+        break;
+    case "subscriber":
+        userCategory = "Subscriber";
+        console.log("User Category:", userCategory);
+        break;
+    default:
+        userCategory = "Unknown";
+        console.log("User Category:", userCategory);
+}
