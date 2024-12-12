@@ -4,7 +4,7 @@ submitButton.onclick = submitFeedback;
 
 function submitFeedback(){
 
-    //since using event listener in js so required field doesnt worl therefore used this eventlistener.
+    //since using event listener in js so required field doesnt work therefore used this eventlistener.
     document.getElementById('myForm').addEventListener('submit', function (event) {
         if (!this.checkValidity()) {
           event.preventDefault(); // Prevent submission if the form is invalid
