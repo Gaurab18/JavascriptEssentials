@@ -6,12 +6,14 @@
 <body>
   <h1>Welcome to Luxury Brand Products Feedback</h1>
   <h2>Provide Your Feedback</h2>
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" placeholder="Your Name" required><br>
-  <label for="age">Age:</label><br>
-  <input type="number" id="age" placeholder="Your Age" required><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" placeholder="Your Email" required><br>
+  <form id="myForm">
+
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" placeholder="Your Name" required><br>
+      <label for="age">Age:</label><br>
+      <input type="number" id="age" placeholder="Your Age" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" placeholder="Your Email" required><br>
   <label for="job">Job:</label><br>
   <input type="text" id="job" placeholder="Your Job" required><br>
   <label for="designation">Designation:</label><br>
@@ -24,8 +26,14 @@
   </select><br>
   <label for="feedbackText">Feedback:</label><br>
   <textarea id="feedbackText" rows="5" cols="30" placeholder="Enter your feedback here" required></textarea><br>
-<button id="submitBtn">Submit Feedback</button>
-<hr>
+  <label for="experienceText">User Experience:</label><br>
+  <textarea id="experinceText" rows="5" cols="30" placeholder="Enter your experience here" required></textarea><br>
+  <button id="submitBtn">Submit Feedback</button>
+</form>
+
+<hr>   <!--  //horizontal line -->
+
+<!-- //output after user click submit -->
 <div id="userInfo" style="display: none;">
   <h2>User Information:</h2>
   <p>Name: <span id="userName"></span></p>
@@ -34,6 +42,7 @@
   <p>Job: <span id="userJob"></span></p>
   <p>Designation: <span id="userDesignation"></span></p>
   <p>Feedback for  <span id="userProductChoice"></span>: <span id="userFeedback"></span></p>
+  <p>User Experience: <span id="userExperince"></span></p>
 </div>
 <script src="./product_survey.js"></script>
 </body>
