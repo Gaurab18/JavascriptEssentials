@@ -1,1 +1,1 @@
-# JavascriptEssetials
+# JavascriptEssentials
