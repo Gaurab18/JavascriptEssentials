@@ -1,0 +1,4 @@
+you will integrate an external API OpenWeatherMap into a web application using JavaScript. You will learn how to fetch data asynchronously, parse JSON responses, and dynamically update the webpage based on the received information. You will understand the core concepts of API integration, asynchronous operations, DOM manipulation, and user interaction, providing a foundational understanding of web development practices for utilizing external data sources in a simple interface.
+
+
+Api url : https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
